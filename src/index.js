@@ -5,10 +5,12 @@ import Header from "./header";
 import Main from "./main";
 import Aside from "./aside";
 import Footer from "./footer";
+import { Button } from "bootstrap";
 
 
 const root = createRoot(document.getElementById("root"));
-root.render(
+root.render(<>
+    <Button className='btn btn-primary'>Texto</Button>
     <StrictMode>
         <Header></Header>
         <div className="container">
@@ -22,5 +24,5 @@ root.render(
             </div>
         </div>
         <Footer></Footer>
-    </StrictMode>
+    </StrictMode></>
 );
