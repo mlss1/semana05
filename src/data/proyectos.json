@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Ingreso",
+        "slug": "gato-1",
+        "description": "Ingreso con estacionamiento y áreas verdes",
+        "picture": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6fba5967789515.5b462a43c6a69.jpg"
+    },
+    {
+        "name": "Area de esparcimiento",
+        "slug": "gato-2",
+        "description": "Zona de entretenimiento",
+        "picture": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/a0854c67789515.5b462a43c7790.jpg"
+    },
+    {
+        "name": "Dormitorio",
+        "slug": "gato-3",
+        "description": "Zona de descanso",
+        "picture": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/96f86a73927139.5c1a38982121b.jpg"
+    }
+    
+]
