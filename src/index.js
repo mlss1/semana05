@@ -9,11 +9,7 @@ import Aside from "./aside";
 import Footer from "./footer";
 import Button from "react-bootstrap/Button";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-const feather = require('feather-icons');
 
-setTimeout(() => {
-    feather.replace();
-}, 1000);
 
 const domNode = document.getElementById('app');
 const root = createRoot(document.getElementById("root"));

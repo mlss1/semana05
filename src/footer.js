@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="footer text-center py-4">
+        <footer data-bs-theme="dark" className="bd-footer py-4 py-md-5 bg-body-tertiary">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
@@ -13,7 +13,7 @@ const Footer = () => {
                         <a href="politica-de-privacidad.html">Política de Privacidad</a>
                     </div>
                 </div>
-                <p className="mt-3">&copy; 2024 Vania Ramos Cotrina. Todos los derechos reservados.</p>
+                <p className="mt-3">&copy; 2024 Todos los derechos reservados.</p>
             </div>
         </footer>
     );
