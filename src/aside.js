@@ -1,40 +1,37 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import './style.css';
+
 const Aside = () => {
-    return <aside>
-      <br></br><h3>Formulario de Contacto</h3>
-        <form class="g-3 row">
-            <div class="col-md-6">
-                <label for="inputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese su nombre" required/>
+    return (
+        <aside className="aside-container">
+            <div className="search-container">
+                <label htmlFor="searchInput" className="search-label">Buscar</label>
+                <input type="text" id="searchInput" className="form-control search-input" placeholder="Buscar" />
+                <button className="btn search-btn"><i className="fa fa-search"></i></button>
             </div>
-            <div class="col-md-6">
-                <label for="inputApellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese su apellido" required/>
-            </div>
-            <div class="col-md-6">
-                <label for="inputEmail" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com" required/>
-            </div>
-            <div class="col-md-6">
-                <label for="inputCiudad" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCiudad" placeholder="Ingrese su ciudad" required/>
-            </div>
-            <div class="col-md-12">
-                <label for="inputMensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="inputMensaje" rows="3" placeholder="Escriba su mensaje aquí" required></textarea>
-            </div>
-            <div class="col-md-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required/>
-                    <label class="form-check-label" for="invalidCheck2">
-                        Acepto los términos y condiciones
-                    </label>
+            <br />
+            <h3 className="text-center">Crea una nueva cuenta</h3>
+            <form className="g-1 row">
+                <div className="col-md-12">
+                    <label htmlFor="inputNombre" className="form-label">Nombre</label>
+                    <input type="text" className="form-control" id="inputNombre" required />
                 </div>
-            </div>
-            <div class="col-md-12">
-                <button class="btn btn-primary" type="submit">Enviar</button>
-            </div>
-        </form>
-    </aside>;
+                <div className="col-md-12">
+                    <label htmlFor="inputEmail" className="form-label">Email</label>
+                    <input type="email" className="form-control" id="inputEmail" required />
+                </div>
+                <div className="col-md-12">
+                    <label htmlFor="inputPassword" className="form-label">Contraseña</label>
+                    <input type="password" className="form-control" id="inputPassword" required />
+                </div>
+                <div className="col-md-12">
+                    <button className="btn btn-primary" type="submit">Registrar</button>
+                </div>
+            </form>
+            <p className="already-registered text-center">¿Ya tienes una cuenta? <a href="/login" className="login-link">Iniciar sesión</a></p>
+        </aside>
+    );
 }
 
 export default Aside;

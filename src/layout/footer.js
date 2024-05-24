@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer data-bs-theme="dark" className="bd-footer py-4 py-md-5 bg-body-tertiary">
+        <footer data-bs-theme="white" className="bd-footer py-4 py-md-5 bg-body-tertiary">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">

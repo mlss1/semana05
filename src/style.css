@@ -1,3 +1,67 @@
 .btn-primary {
     background: rgb(176, 148, 117);
 }
+
+body {
+    background-color: rgb(29, 42, 58);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+main, header, aside {
+    background-color: inherit;
+}
+
+.aside-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-label {
+    display: none; /* Oculta la etiqueta si no es necesaria */
+}
+
+.search-input {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background-color: #b09475;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-btn .fa-search {
+    color: white;
+}
+
+.already-registered {
+    margin-top: 10px;
+    color: #cfcbc5;
+}
+
+.already-registered a {
+    color: #b09475;
+    text-decoration: underline;
+}
+
+h3.text-center {
+    color: rgb(176, 148, 117);
+    font-weight: bold;
+}
