@@ -13,19 +13,19 @@ const Aside = () => {
             <br />
             <h3 className="text-center">Crea una nueva cuenta</h3>
             <form className="g-1 row">
-                <div className="col-md-12">
+                <div className="col-md-12 mb-3">
                     <label htmlFor="inputNombre" className="form-label">Nombre</label>
                     <input type="text" className="form-control" id="inputNombre" required />
                 </div>
-                <div className="col-md-12">
+                <div className="col-md-12 mb-3">
                     <label htmlFor="inputEmail" className="form-label">Email</label>
                     <input type="email" className="form-control" id="inputEmail" required />
                 </div>
-                <div className="col-md-12">
+                <div className="col-md-12 mb-3">
                     <label htmlFor="inputPassword" className="form-label">Contraseña</label>
                     <input type="password" className="form-control" id="inputPassword" required />
                 </div>
-                <div className="col-md-12">
+                <div className="col-md-12 mb-3">
                     <button className="btn btn-primary" type="submit">Registrar</button>
                 </div>
             </form>

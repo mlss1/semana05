@@ -1,6 +1,5 @@
-import React from 'react';
 import { FaHome, FaUser, FaInfoCircle, FaEnvelope } from 'react-icons/fa';
-import logo from '../assets/logo.png'; // Asegúrate de que la ruta sea correcta
+import logo from '../assets/logo.png';
 
 const Header = () => {
     return (
@@ -9,7 +8,7 @@ const Header = () => {
                 <div className="container-fluid d-flex justify-content-between align-items-center">
                     <a className="navbar-brand" href="/" style={{ color: 'white', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
                         <img src={logo} alt="Logo" style={{ height: '30px', marginRight: '10px' }} />
-                        C O N C R E A T I V E
+                          C R E A T I V E
                     </a>
                     <div className="d-flex align-items-center">
                         <a className="nav-link me-3" href="/" style={{ color: 'rgb(176, 148, 117)' }}>

@@ -1,4 +1,4 @@
-import Proyectos from './data/proyectos.json'
+import Proyectos from './data/proyectos.json';
 
 const Single = () => {
 

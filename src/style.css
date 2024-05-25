@@ -28,7 +28,7 @@ main, header, aside {
 }
 
 .search-label {
-    display: none; /* Oculta la etiqueta si no es necesaria */
+    display: none;
 }
 
 .search-input {
@@ -63,5 +63,119 @@ main, header, aside {
 
 h3.text-center {
     color: rgb(176, 148, 117);
+    font-weight: bold;
+}
+
+/* style.css */
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-signup {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-signup input {
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    flex: 1;
+}
+
+.newsletter-signup button {
+    background-color: #000000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.newsletter-signup button i {
+    color: white;
+}
+
+
+
+body {
+    background-color: rgb(29, 42, 58);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.carousel-description {
+    background-color: rgb(29, 42, 58);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-categories-section {
+    background-color: rgb(176, 148, 117);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-categories-section h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-item {
+    background-color: white;
+    color: rgb(29, 42, 58);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;  /* Ajusta según sea necesario */
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;  /* Añadir cursor de puntero */
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid rgb(176, 148, 117);
+}
+
+.category-item p {
+    margin-top: 10px;
     font-weight: bold;
 }
